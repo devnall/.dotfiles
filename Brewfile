@@ -2,7 +2,7 @@
 # Brewfile                                  #
 # Install homebrew packages                 #
 # Maintainer: Drew Nall <drewnall@gmail.com #
-# Last Updated: 20181114                    #
+# Last Updated: 20210622                    #
 #############################################
 
 # Usage:
@@ -111,10 +111,10 @@ brew "pinentry-mac"
 brew "terraform"
 brew "terraform_landscape"
 brew "tflint"
-
-
+brew "warrensbox/tap/tfswitch"
 
 # Install cask apps
+
 cask '1password'
 cask 'alfred'
 #cask 'appzapper'
@@ -155,8 +155,8 @@ cask 'viscosity'
 cask 'vlc'
 
 # Install stuff from Mac App Store via mas
-mas 'iStat Mini', id:927292435
-mas 'Degrees Pro', id: 951510024
-mas 'Copied', id: 1026349850
-mas 'Pixelmator', id: 407963104
-mas 'Tweetbot', id: 557168941
+#mas 'iStat Mini', id:927292435
+#mas 'Degrees Pro', id: 951510024
+#mas 'Copied', id: 1026349850
+#mas 'Pixelmator', id: 407963104
+#mas 'Tweetbot', id: 557168941
